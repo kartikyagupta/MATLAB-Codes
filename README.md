@@ -19,11 +19,17 @@ The "Neural Networks and Fuzzy Logics" course provides an in-depth understanding
 
 The repository includes the following MATLAB codes:
 
-1. **ANFIS_Modelling.m**: Implements the Adaptive Neuro-Fuzzy Inference System (ANFIS) algorithm for modeling and prediction tasks.
-2. **TriangularMF.m**: Plots a triangular membership function.
-3. **TrapezoidalMF.m**: Plots a trapezoidal membership function.
-4. **MultipleMF.m**: Plots multiple membership functions on the same graph.
-5. **ZadehDiagram.m**: Generates a Zadeh diagram for a fuzzy set and its "very" complement.
+1. **BAM_Algorithm.m**: Implements the BAM (Bi-directional Associative Memory) algorithm.
+2. **Activation_Functions.m**: Contains various activation functions used in neural networks, such as tansig, logsig, poslin, purelin, and softmax.
+3. **BPN_Industrial_Datasets.m**: Trains a neural network with industrial datasets using the scaled conjugate gradient algorithm.
+4. **Ex1_tansig.m**: Calculates the output of a simple neuron using the 'tansig' activation function.
+5. **Ex2_logsig.m**: Calculates the output of a simple neuron using the 'logsig' activation function.
+6. **Ex3_plot_tansig_logsig.m**: Plots the 'tansig' and 'logsig' activation functions.
+7. **Ex4_plot_poslin_purelin.m**: Plots the 'poslin' and 'purelin' activation functions.
+8. **Ex5_softmax.m**: Implements the softmax function.
+9. **Ex6_activation_functions.m**: Illustrates various activation functions used in neural networks.
+10. **Ex7_train_NN_datasets.m**: Trains a neural network with datasets using various algorithms (trainlm, traingd, trainscg).
+11. **SOM_Algorithm.m**: Implements the SOM (Self-Organizing Map) algorithm.
 
 ## Requirements
 
@@ -32,7 +38,7 @@ To run the MATLAB codes in this repository, you need to have MATLAB installed on
 ## Usage
 
 1. Clone the repository to your local machine using the following command:
-git clone https://github.com/your-username/neural-networks-fuzzy-logics.git
+git clone https://github.com/kartikyagupta/matlab-codes.git
 
 2. Navigate to the cloned repository directory:
 cd neural-networks-fuzzy-logics
